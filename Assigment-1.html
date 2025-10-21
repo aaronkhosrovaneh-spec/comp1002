@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8" />
+  <title>Perfect Slice Pizza Order Form</title>
+</head>
+<body>
+  <!-- HEADER SECTION -->
+  <header>
+    <h1>Perfect Slice Pizza</h1>
+    <p>Welcome! Please fill out the form below to create your perfect pizza order.</p>
+  </header>
+
+  <!-- MAIN CONTENT SECTION -->
+  <main>
+    <h2>Order Your Pizza</h2>
+        <!-- Customer Information -->
+        <fieldset>
+          <legend>Customer Information</legend>
+          
+          <!-- First Name -->
+          <div>
+            <label for = "name">First Name:</label>
+            <input type = "text" name = "fname" id = "fname" />
+          </div>
+          
+          <!-- Last Name -->
+          <div>
+            <label for = "name">Last Name:</label>
+            <input type = "text" name = "lname" id = "lname" />
+          </div>
+
+          <!-- Email -->
+          <div>
+            <label for = "email">Email:</label>
+            <input type = "email" name = "email" id = "email" />
+          </div>
+        </fieldset>
+
+        <!-- Pizza Details -->
+        <fieldset>
+          <legend>Pizza Details</legend>
+
+          <!-- Number of pizzas -->
+          <div>
+            <label for = "quantity">Number of Pizzas:</label>
+            <input type = "number" name = "quantity" id = "quantity" min = "1" max = "10" />
+          </div>
+
+          <!-- Pizza size -->
+          <div>
+            <label for = "size">Size (number of slices):</label>
+            <select name = "size" id = "size">
+                <option value = "small">Small (6 slices)</option>
+                <option value = "medium">Medium (8 slices)</option>
+                <option value = "large">Large (10 slices)</option>
+                <option value = "xl">Extra Large (12 slices)</option>
+            </select>
+          </div>
+
+          <!-- Shape -->
+          <p>Shape:</p>
+          <input type = "radio" name = "shape" id = "round" />
+          <label for = "round">Round</label>
+
+          <input type = "radio" name = "shape" id = "square" />
+          <label for = "square">Square</label>
+
+          <!-- Crust type -->
+          <p>Crust Type:</p>
+          <input type = "radio" name = "crust" id = "thin" />
+          <label for = "thin">Thin</label>
+
+          <input type = "radio" name = "crust" id = "deep" />
+          <label for = "deep">Deep</label>
+
+          <input type = "radio" name = "crust" id = "stuffed" />
+          <label for = "stuffed">Stuffed</label>
+
+          <!-- Toppings -->
+          <p>Toppings (choose all that apply):</p>
+          <input type = "checkbox" name = "toppings" id = "pepperoni" />
+          <label for = "pepperoni">Pepperoni</label>
+
+          <input type = "checkbox" name = "toppings" id = "mushrooms" />
+          <label for = "mushrooms">Mushrooms</label>
+
+          <input type = "checkbox" name = "toppings" id = "onions" />
+          <label for = "onions">Onions</label>
+
+          <input type = "checkbox" name = "toppings" id = "olives" />
+          <label for = "olives">Olives</label>
+        </fieldset>
+
+        <!-- Order type -->
+        <fieldset>
+          <legend>Order Type</legend>
+
+          <!-- Takeout -->
+          <input type = "radio" name = "orderType" id = "takeout" />
+          <label for = "takeout">Takeout</label>
+
+          <!-- Delivery -->
+          <input type = "radio" name = "orderType" id = "delivery" />
+          <label for = "delivery">Delivery</label>
+
+          <!-- Eat-In -->
+          <input type = "radio" name = "orderType" id = "eat-in" />
+          <label for = "eat-in">Eat-In</label>
+        </fieldset>
+
+        <!-- Reset and submit buttons -->
+        <button type = "reset">Reset</button>
+        <button type = "submit">Submit</button>
+
+    <!-- IMAGE SECTION -->
+    <section>
+      <h2>Our Pizzas</h2>
+      <p>
+        Here's a look at one of our delicious creations:
+        <img src = "images/DominosPizza_41339ef7-d82b-43c0-9579-cec90dd5b556.jpg" alt = "A hot, cheesy pizza slice on a plate" width = "300" />
+      </p>
+    </section>
+  </main>
+
+  <!-- FOOTER SECTION -->
+  <footer>
+    <p><small>©2025 Perfect Slice Pizza — Freshly baked happiness!</small></p>
+  </footer>
+</body>
+</html>
