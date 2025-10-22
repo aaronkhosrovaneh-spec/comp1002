@@ -11,3 +11,24 @@
       <h1>Perfect Slice Pizza</h1>
       <p>Welcome! Please fill out the form below to create your perfect pizza order.</p>
     </header>
+
+    <!-- MAIN CONTENT SECTION -->
+    <main>
+      <h2>Order Your Pizza</h2>
+      <form>
+          <!-- Customer Information -->
+          <fieldset>
+            <legend>Customer Information</legend>
+            
+            <!-- First Name -->
+            <div>
+              <label for = "name">First Name:</label>
+              <input type = "text" name = "fname" id = "fname" />
+            </div>
+            
+            <!-- Last Name -->
+            <div>
+              <label for = "name">Last Name:</label>
+              <input type = "text" name = "lname" id = "lname" />
+            </div>
+          </fieldset>
