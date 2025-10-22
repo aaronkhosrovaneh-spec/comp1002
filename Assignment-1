@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset = "utf-8" />
+    <title>Perfect Slice Pizza Order Form</title>
+    <link rel = "stylesheet" href = "css/styles.css" />
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+    <header>
+      <h1>Perfect Slice Pizza</h1>
+      <p>Welcome! Please fill out the form below to create your perfect pizza order.</p>
+    </header>
