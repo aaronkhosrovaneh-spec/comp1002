@@ -32,3 +32,58 @@
               <input type = "text" name = "lname" id = "lname" />
             </div>
           </fieldset>
+
+          <!-- Pizza Details -->
+          <fieldset>
+            <legend>Pizza Details</legend>
+
+            <!-- Number of pizzas -->
+            <div>
+              <label for = "quantity">Number of Pizzas:</label>
+              <input type = "number" name = "quantity" id = "quantity" min = "1" max = "10" />
+            </div>
+
+            <!-- Pizza size -->
+            <div>
+              <label for = "size">Size (number of slices):</label>
+              <select name = "size" id = "size">
+                  <option value = "small">Small (6 slices)</option>
+                  <option value = "medium">Medium (8 slices)</option>
+                  <option value = "large">Large (10 slices)</option>
+                  <option value = "xl">Extra Large (12 slices)</option>
+              </select>
+            </div>
+
+            <!-- Shape -->
+            <h3>Shape:</h3>
+            <input type = "radio" name = "shape" id = "round" />
+            <label for = "round">Round</label>
+
+            <input type = "radio" name = "shape" id = "square" />
+            <label for = "square">Square</label>
+
+            <!-- Crust type -->
+            <h3>Crust Type:</h3>
+            <input type = "radio" name = "crust" id = "thin" />
+            <label for = "thin">Thin</label>
+
+            <input type = "radio" name = "crust" id = "deep" />
+            <label for = "deep">Deep</label>
+
+            <input type = "radio" name = "crust" id = "stuffed" />
+            <label for = "stuffed">Stuffed</label>
+
+            <!-- Toppings -->
+            <h3>Toppings (choose all that apply):</h3>
+            <input type = "radio" name = "toppings" id = "pepperoni" />
+            <label for = "pepperoni">Pepperoni</label>
+
+            <input type = "radio" name = "toppings" id = "mushrooms" />
+            <label for = "mushrooms">Mushrooms</label>
+
+            <input type = "radio" name = "toppings" id = "onions" />
+            <label for = "onions">Onions</label>
+
+            <input type = "radio" name = "toppings" id = "olives" />
+            <label for = "olives">Olives</label>
+          </fieldset>
