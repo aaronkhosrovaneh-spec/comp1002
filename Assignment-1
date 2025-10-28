@@ -87,3 +87,25 @@
             <input type = "radio" name = "toppings" id = "olives" />
             <label for = "olives">Olives</label>
           </fieldset>
+
+          <!-- Order type -->
+          <fieldset>
+            <legend>Order Type</legend>
+
+            <!-- Takeout -->
+            <input type = "radio" name = "orderType" id = "takeout" />
+            <label for = "takeout">Takeout</label>
+
+            <!-- Delivery -->
+            <input type = "radio" name = "orderType" id = "delivery" />
+            <label for = "delivery">Delivery</label>
+
+            <!-- Eat-In -->
+            <input type = "radio" name = "orderType" id = "eat-in" />
+            <label for = "eat-in">Eat-In</label>
+          </fieldset>
+
+          <!-- Reset and submit buttons -->
+          <button type = "reset">Reset</button>
+          <button type = "submit">Submit</button>
+      </form>
