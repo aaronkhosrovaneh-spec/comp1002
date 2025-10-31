@@ -109,3 +109,22 @@
           <button type = "reset">Reset</button>
           <button type = "submit">Submit</button>
       </form>
+
+      <!-- IMAGE SECTION -->
+      <section>
+        <header>
+          <h3>Our Pizzas</h3>
+        </header>
+        <p>
+          Here's a look at one of our delicious creations:
+          <img src = "images/DominosPizza_41339ef7-d82b-43c0-9579-cec90dd5b556.jpg" />
+        </p>
+      </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+      <p><small>©2025 Perfect Slice Pizza — Freshly baked happiness!</small></p>
+    </footer>
+  </body>
+</html>
