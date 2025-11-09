@@ -1,0 +1,39 @@
+html {
+    background: linear-gradient(to bottom, #000010, #001020, #000000);
+}
+
+body {
+    font-size: 100%;
+    font-family: 'Arial Black', Impact, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ffcc00;
+    text-shadow: 3px 3px 6px red;
+}
+
+.tagline {
+    font-size: 1.2em;
+}
+
+.credits {
+    font-size: 0.9em;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+footer {
+    font-size: 0.8em;
+    margin-top: 40px;
+}
+
+img {
+    max-width: 300px;
+    margin-top: 20px;
+}
