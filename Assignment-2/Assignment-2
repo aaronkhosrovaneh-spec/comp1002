@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset = "utf-8" />
+    <title>Back to the Future Poster</title>
+    <link rel = "stylesheet" href = "css/styles.css" />
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+    <header>
+        <h2>STEVEN SPIELBERG Presents</h2>
+        <h1>BACK TO THE FUTURE</h1>
+        <h2>A ROBERT ZEMECKIS Film</h2>
+    </header>
+
+    <!-- TAGLINE SECTION -->
+    <section>
+        <p class = "tagline">He was never in time for his classes...</p>
+        <p class = "tagline">He wasn’t in time for his dinner...</p>
+        <p class = "tagline">Then one day, he wasn’t in his time at all.</p>
+    </section>
+
+    <!-- IMAGE SECTION -->
+    <section>
+        <img src = "https://upload.wikimedia.org/wikipedia/en/d/d2/Back_to_the_Future.jpg" alt = "Back to the Future Poster">
+    </section>
+
+    <!-- CREDITS SECTION -->
+    <section>
+        <p class = "credits">Starring MICHAEL J. FOX, CHRISTOPHER LLOYD, LEA THOMPSON, and CRISPIN GLOVER</p>
+        <p class = "credits">Music by ALAN SILVESTRI Written by ROBERT ZEMECKIS & BOB GALE</p>
+        <p class = "credits">Produced by BOB GALE and NEIL CANTON Executive Producers STEVEN SPIELBERG, KATHLEEN KENNEDY, FRANK MARSHALL</p>
+        <p class = "credits">Directed by ROBERT ZEMECKIS</p>
+    </section>
+
+    <section>
+        <p>Visit the <a href = "https://www.backtothefuture.com"> Official Back to the Future Website</a> or read reviews on <a href = "https://www.rottentomatoes.com/m/back_to_the_future"> Rotten Tomatoes</a>.</p>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <p>&copy; Universal Pictures. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
